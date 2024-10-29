@@ -160,10 +160,10 @@ textarea {
 
 @keyframes any {
   0% {
-    fill: #ffffff;
+    fill: #5228f9;
   }
   70% {
-    fill: #5228f9;
+    fill: #ffffff;
   }
   100% {
     fill: #76d0ed;
