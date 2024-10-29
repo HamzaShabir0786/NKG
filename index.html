@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hazni</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <nav class="nav-container">
       <div class="inner-nav">
         <div class="logo-div">
-          <strong>H9NZI BR9ND &#128420; </strong>
+          <div data-aos="flip-left">
+            <strong>H9NZI BR9ND &#128420; </strong>
+          </div>
         </div>
         <div class="links-div">
           <ul>
             <li>
-              <a href="./contact">Hanzii..</a>
+              <div data-aos="flip-up">
+                <a href="./contact">Hanzii..</a>
+              </div>
             </li>
           </ul>
         </div>
@@ -25,55 +30,64 @@
     <section class="section-contact">
       <form action="https://formspree.io/f/mldegyny" method="POST">
         <div class="contact-div">
-          <div class="contact-item1 contact-items">
-            <div class="info-flex">
-              <label for="firstName"><strong>Name:</strong></label>
-              <input
-                type="text"
-                name="name"
-                id="firstName"
-                class="contact-inputs"
-                placeholder="What is your name?"
-              />
+          <div data-aos="zoom-in">
+            <div class="contact-item1 contact-items">
+              <div class="info-flex">
+                <label for="firstName"><strong>Name:</strong></label>
+                <input
+                  type="text"
+                  name="name"
+                  id="firstName"
+                  class="contact-inputs"
+                  placeholder="What is your name?"
+                />
+              </div>
             </div>
           </div>
-          <div class="contact-item2 contact-items">
-            <div class="info-flex">
-              <label for="lastName"><strong>Last Name:</strong></label>
-              <input
-                type="text"
-                name="Last Name"
-                id="lastName"
-                class="contact-inputs"
-                placeholder="What is your last name?"
-              />
+          <div data-aos="zoom-out">
+            <div class="contact-item2 contact-items">
+              <div class="info-flex">
+                <label for="lastName"><strong>Last Name:</strong></label>
+                <input
+                  type="text"
+                  name="Last Name"
+                  id="lastName"
+                  class="contact-inputs"
+                  placeholder="What is your last name?"
+                />
+              </div>
             </div>
           </div>
-          <div class="contact-item3 contact-items">
-            <div class="info-flex">
-              <label for="adress"><strong>Adress:</strong></label>
-              <input
-                type="text"
-                name="Adress"
-                id="adress"
-                class="contact-inputs"
-                placeholder="What is your Adress?"
-              />
+          <div data-aos="zoom-out-up">
+            <div class="contact-item3 contact-items">
+              <div class="info-flex">
+                <label for="adress"><strong>Adress:</strong></label>
+                <input
+                  type="text"
+                  name="Adress"
+                  id="adress"
+                  class="contact-inputs"
+                  placeholder="What is your Adress?"
+                />
+              </div>
             </div>
           </div>
-          <div class="contact-item4 contact-items">
-            <div class="info-flex">
-              <label for="email"><strong>Email:</strong></label>
-              <input
-                type="email"
-                name="Email"
-                required
-                id="email"
-                class="contact-inputs"
-                placeholder="xyz@example.com"
-              />
+          <div data-aos="zoom-out-down">
+            <div class="contact-item4 contact-items">
+              <div class="info-flex">
+                <label for="email"><strong>Email:</strong></label>
+                <input
+                  type="email"
+                  name="Email"
+                  required
+                  id="email"
+                  class="contact-inputs"
+                  placeholder="xyz@example.com"
+                />
+              </div>
             </div>
           </div>
+
           <div class="contact-item5 contact-items">
             <div class="info-flex">
               <label for="message"><strong>Messsage:</strong></label>
@@ -88,10 +102,21 @@
             </div>
           </div>
         </div>
-        <div class="wrapper-send-btn">
-          <button type="submit" class="send-message-btn">Send Message</button>
+
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
+          <div class="wrapper-send-btn">
+            <button type="submit" class="send-message-btn">Send Message</button>
+          </div>
         </div>
       </form>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
