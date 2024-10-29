@@ -154,6 +154,20 @@ textarea {
 
 .custom-shape-divider-bottom-1730228727 .shape-fill {
   fill: #ffffff;
+  transition: all 0.2s linear;
+  animation: any 30s linear infinite;
+}
+
+@keyframes any {
+  0% {
+    fill: #ffffff;
+  }
+  50% {
+    fill: #5228f9;
+  }
+  100% {
+    fill: #76d0ed;
+  }
 }
 
 @media (max-width: 800px) {
