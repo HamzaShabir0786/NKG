@@ -210,7 +210,7 @@ textarea {
 @media (max-width: 800px) {
   .section-contact {
     padding: 0.2rem;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
   }
   .contact-div {
