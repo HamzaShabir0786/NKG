@@ -224,7 +224,7 @@ textarea {
 @media (max-width: 800px) {
   .section-contact {
     padding: 0.2rem;
-    height: 70vh;
+
     width: 100%;
   }
   .contact-div {
@@ -236,5 +236,11 @@ textarea {
   .contact-item5 {
     grid-column: span 1;
     height: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .section-contact {
+    width: 80vh;
   }
 }
